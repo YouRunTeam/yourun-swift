@@ -13,6 +13,7 @@
 		20CE648121067F5100A30168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CE648021067F5100A30168 /* Assets.xcassets */; };
 		20CE648421067F5100A30168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CE648221067F5100A30168 /* LaunchScreen.storyboard */; };
 		20CE648F21067F5100A30168 /* YouRunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CE648E21067F5100A30168 /* YouRunTests.swift */; };
+		20CE649A2106811D00A30168 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CE64992106811D00A30168 /* MyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		20CE648A21067F5100A30168 /* YouRunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouRunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CE648E21067F5100A30168 /* YouRunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouRunTests.swift; sourceTree = "<group>"; };
 		20CE649021067F5100A30168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20CE64992106811D00A30168 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				20CE647921067F4F00A30168 /* AppDelegate.swift */,
 				20CE647B21067F4F00A30168 /* ViewController.swift */,
+				20CE64992106811D00A30168 /* MyViewController.swift */,
 				20CE647D21067F4F00A30168 /* Main.storyboard */,
 				20CE648021067F5100A30168 /* Assets.xcassets */,
 				20CE648221067F5100A30168 /* LaunchScreen.storyboard */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20CE647C21067F4F00A30168 /* ViewController.swift in Sources */,
+				20CE649A2106811D00A30168 /* MyViewController.swift in Sources */,
 				20CE647A21067F4F00A30168 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
