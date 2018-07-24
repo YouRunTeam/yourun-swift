@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zhe-fi-6BA">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,45 +10,37 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Navigation Controller-->
+        <scene sceneID="eQT-dl-gZS">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="YouRun" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <navigationController id="zhe-fi-6BA" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1rM-1p-g5q">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="CUJ-rn-7kA" kind="relationship" relationship="rootViewController" id="32J-9v-So0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6sT-Ml-0KM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3483" y="-302"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="ITs-VB-EyM">
+            <objects>
+                <viewController id="CUJ-rn-7kA" customClass="MapViewController" customModule="YouRun" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JHA-0q-f9S">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l1m-TI-n0T">
-                                <rect key="frame" x="67" y="181" width="280" height="374"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEY-dc-INf">
-                                        <rect key="frame" x="91.333333333333343" y="177" width="98" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <accessibility key="accessibilityConfiguration" label="Hello, World!"/>
-                                <constraints>
-                                    <constraint firstItem="zEY-dc-INf" firstAttribute="centerY" secondItem="l1m-TI-n0T" secondAttribute="centerY" id="NMv-WN-THy"/>
-                                    <constraint firstItem="zEY-dc-INf" firstAttribute="centerX" secondItem="l1m-TI-n0T" secondAttribute="centerX" id="hek-CG-LtV"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="l1m-TI-n0T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="I0Q-vb-k09"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="l1m-TI-n0T" secondAttribute="bottom" constant="181" id="J9l-BD-XM5"/>
-                            <constraint firstItem="l1m-TI-n0T" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Vx5-S6-AxM"/>
-                            <constraint firstItem="l1m-TI-n0T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jx7-97-xD1"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="qWx-8y-uTk"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Mpd-fd-OKR"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="biB-Cu-WrF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-594" y="-4"/>
+            <point key="canvasLocation" x="-2599" y="-302"/>
         </scene>
     </scenes>
 </document>

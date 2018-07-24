@@ -17,6 +17,9 @@ depends-top-level:
 - "AppDelegate"
 - "Bool"
 - !private "BooleanLiteralType"
+- !private "GMSPlacesClient"
+- !private "GMSServices"
+- !private "StringLiteralType"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIApplicationLaunchOptionsKey"
@@ -24,6 +27,8 @@ depends-top-level:
 - "UIWindow"
 depends-member:
 - ["6YouRun11AppDelegateC", "Bool"]
+- !private ["6YouRun11AppDelegateC", "GMSPlacesClient"]
+- !private ["6YouRun11AppDelegateC", "GMSServices"]
 - ["6YouRun11AppDelegateC", "UIApplication"]
 - ["6YouRun11AppDelegateC", "UIApplicationLaunchOptionsKey"]
 - ["6YouRun11AppDelegateC", "UIWindow"]
@@ -42,6 +47,9 @@ depends-member:
 - ["6YouRun11AppDelegateC", "deinit"]
 - ["6YouRun11AppDelegateC", "init"]
 - ["6YouRun11AppDelegateC", "window"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "GMSPlacesClient"]
+- !private ["s7CVarArgP", "GMSServices"]
 - ["s7CVarArgP", ""]
 - ["s7CVarArgP", "application"]
 - ["s7CVarArgP", "applicationDidBecomeActive"]
@@ -56,7 +64,12 @@ depends-member:
 - ["s7CVarArgP", "applicationWillResignActive"]
 - ["s7CVarArgP", "applicationWillTerminate"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "provideAPIKey"]
 - ["s7CVarArgP", "window"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "GMSPlacesClient"]
+- !private ["s28CustomDebugStringConvertibleP", "GMSServices"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - ["s28CustomDebugStringConvertibleP", "application"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
@@ -71,7 +84,12 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "provideAPIKey"]
 - ["s28CustomDebugStringConvertibleP", "window"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "GMSPlacesClient"]
+- !private ["s23CustomStringConvertibleP", "GMSServices"]
 - ["s23CustomStringConvertibleP", ""]
 - ["s23CustomStringConvertibleP", "application"]
 - ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
@@ -86,7 +104,12 @@ depends-member:
 - ["s23CustomStringConvertibleP", "applicationWillResignActive"]
 - ["s23CustomStringConvertibleP", "applicationWillTerminate"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "provideAPIKey"]
 - ["s23CustomStringConvertibleP", "window"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "GMSPlacesClient"]
+- !private ["s9EquatableP", "GMSServices"]
 - ["s9EquatableP", ""]
 - ["s9EquatableP", "application"]
 - ["s9EquatableP", "applicationDidBecomeActive"]
@@ -101,7 +124,15 @@ depends-member:
 - ["s9EquatableP", "applicationWillResignActive"]
 - ["s9EquatableP", "applicationWillTerminate"]
 - !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "provideAPIKey"]
 - ["s9EquatableP", "window"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So15GMSPlacesClientC", "provideAPIKey"]
+- !private ["So11GMSServicesC", "provideAPIKey"]
+- !private ["s8HashableP", "GMSPlacesClient"]
+- !private ["s8HashableP", "GMSServices"]
 - ["s8HashableP", ""]
 - ["s8HashableP", "application"]
 - ["s8HashableP", "applicationDidBecomeActive"]
@@ -116,8 +147,13 @@ depends-member:
 - ["s8HashableP", "applicationWillResignActive"]
 - ["s8HashableP", "applicationWillTerminate"]
 - !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "provideAPIKey"]
 - ["s8HashableP", "window"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
 - ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "GMSPlacesClient"]
+- !private ["So8NSObjectC", "GMSServices"]
 - ["So8NSObjectC", "UIApplication"]
 - ["So8NSObjectC", "UIApplicationLaunchOptionsKey"]
 - ["So8NSObjectC", "UIWindow"]
@@ -134,7 +170,10 @@ depends-member:
 - ["So8NSObjectC", "applicationWillResignActive"]
 - ["So8NSObjectC", "applicationWillTerminate"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "provideAPIKey"]
 - ["So8NSObjectC", "window"]
+- !private ["So16NSObjectProtocolP", "GMSPlacesClient"]
+- !private ["So16NSObjectProtocolP", "GMSServices"]
 - ["So16NSObjectProtocolP", ""]
 - ["So16NSObjectProtocolP", "application"]
 - ["So16NSObjectProtocolP", "applicationDidBecomeActive"]
@@ -149,7 +188,16 @@ depends-member:
 - ["So16NSObjectProtocolP", "applicationWillResignActive"]
 - ["So16NSObjectProtocolP", "applicationWillTerminate"]
 - !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "provideAPIKey"]
 - ["So16NSObjectProtocolP", "window"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So21UIApplicationDelegateP", "GMSPlacesClient"]
+- !private ["So21UIApplicationDelegateP", "GMSServices"]
 - ["So21UIApplicationDelegateP", ""]
 - ["So21UIApplicationDelegateP", "application"]
 - ["So21UIApplicationDelegateP", "applicationDidBecomeActive"]
@@ -164,6 +212,8 @@ depends-member:
 - ["So21UIApplicationDelegateP", "applicationWillResignActive"]
 - ["So21UIApplicationDelegateP", "applicationWillTerminate"]
 - ["So21UIApplicationDelegateP", "window"]
+- !private ["So30UIPasteConfigurationSupportingP", "GMSPlacesClient"]
+- !private ["So30UIPasteConfigurationSupportingP", "GMSServices"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So30UIPasteConfigurationSupportingP", "application"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidBecomeActive"]
@@ -180,6 +230,8 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - ["So30UIPasteConfigurationSupportingP", "window"]
 - ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "GMSPlacesClient"]
+- !private ["So11UIResponderC", "GMSServices"]
 - ["So11UIResponderC", "UIApplication"]
 - ["So11UIResponderC", "UIApplicationLaunchOptionsKey"]
 - ["So11UIResponderC", "UIWindow"]
@@ -198,6 +250,8 @@ depends-member:
 - ["So11UIResponderC", "applicationWillTerminate"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "window"]
+- !private ["So30UIResponderStandardEditActionsP", "GMSPlacesClient"]
+- !private ["So30UIResponderStandardEditActionsP", "GMSServices"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - ["So30UIResponderStandardEditActionsP", "application"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidBecomeActive"]
@@ -213,6 +267,13 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "applicationWillTerminate"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - ["So30UIResponderStandardEditActionsP", "window"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GMSPlacesClient"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GMSServices"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - ["10Foundation27_KeyValueCodingAndObservingP", "application"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
@@ -227,21 +288,51 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "provideAPIKey"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - "6YouRun11AppDelegateC"
+- !private "s23BidirectionalCollectionP"
 - "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
 - "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
 - "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So15GMSPlacesClientC"
+- !private "So11GMSServicesC"
 - "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - "So21UIApplicationDelegateP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -251,20 +342,88 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GooglePlaces.framework/Headers/GMSPlacePhotoMetadata.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GooglePlaces.framework/Headers/GMSPlaceLikelihood.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GooglePlaces.framework/Headers/GMSPlace.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GooglePlaces.framework/Headers/GMSUserAddedPlace.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSPanoramaSource.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GooglePlaces.framework/Headers/GMSAutocompleteTableDataSource.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GooglePlaces.framework/Headers/GMSAutocompleteBoundsMode.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GooglePlaces.framework/Headers/GMSAutocompletePrediction.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GooglePlaces.framework/Headers/GMSAutocompleteFetcher.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GooglePlaces.framework/Headers/GMSAutocompleteViewController.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GooglePlaces.framework/Headers/GMSAutocompleteResultsViewController.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GooglePlaces.framework/Headers/GMSAutocompleteFilter.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSOverlayLayer.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GooglePlaces.framework/Headers/GooglePlaces.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GooglePlaces.framework/Headers/GMSPlaceTypes.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GooglePlaces.framework/Headers/GMSPlacesErrors.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GooglePlaces.framework/Headers/GMSPlacesClient.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GooglePlaces.framework/Headers/GMSAutocompleteMatchFragment.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GooglePlaces.framework/Headers/GMSAddressComponent.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GooglePlaces.framework/Headers/GMSPlacePhotoMetadataList.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GooglePlaces.framework/Headers/GMSPlaceLikelihoodList.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GooglePlaces.framework/Modules/module.modulemap"
+- "/Users/aebartlett/Desktop/YouRun/YouRun/GoogleMaps.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "39b3012234996ab26d7217426d30560c"
+interface-hash: "92edfa172683a8b074cac1dac64ac89f"

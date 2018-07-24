@@ -32,6 +32,12 @@
 		20CE64BD2106A63100A30168 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CE64BC2106A63100A30168 /* QuartzCore.framework */; };
 		20CE64BF2106A63B00A30168 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CE64BE2106A63B00A30168 /* SystemConfiguration.framework */; };
 		20CE64C12106A64400A30168 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CE64C02106A64400A30168 /* UIKit.framework */; };
+		20CE64C32107773B00A30168 /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CE64C22107773B00A30168 /* GooglePlaces.framework */; };
+		20CE64C52107775300A30168 /* GooglePlacePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CE64C42107775300A30168 /* GooglePlacePicker.framework */; };
+		20CE64C72107778100A30168 /* GooglePlaces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20CE64C62107778100A30168 /* GooglePlaces.bundle */; };
+		20CE64C9210777AC00A30168 /* GooglePlacePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20CE64C8210777AB00A30168 /* GooglePlacePicker.bundle */; };
+		20CE64CB21077B6B00A30168 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CE64CA21077B6B00A30168 /* MapViewController.swift */; };
+		20CE64CD21077E2F00A30168 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CE64CC21077E2F00A30168 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +80,12 @@
 		20CE64BC2106A63100A30168 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		20CE64BE2106A63B00A30168 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		20CE64C02106A64400A30168 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		20CE64C22107773B00A30168 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlaces.framework; sourceTree = "<group>"; };
+		20CE64C42107775300A30168 /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlacePicker.framework; sourceTree = "<group>"; };
+		20CE64C62107778100A30168 /* GooglePlaces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		20CE64C8210777AB00A30168 /* GooglePlacePicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlacePicker.bundle; path = GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle; sourceTree = "<group>"; };
+		20CE64CA21077B6B00A30168 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		20CE64CC21077E2F00A30168 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,24 +93,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20CE64C12106A64400A30168 /* UIKit.framework in Frameworks */,
-				20CE64BF2106A63B00A30168 /* SystemConfiguration.framework in Frameworks */,
-				20CE64BD2106A63100A30168 /* QuartzCore.framework in Frameworks */,
-				20CE64BB2106A62800A30168 /* OpenGLES.framework in Frameworks */,
-				20CE64B92106A61C00A30168 /* libz.tbd in Frameworks */,
-				20CE64B72106A61000A30168 /* libc++.tbd in Frameworks */,
-				20CE64B52106A5F900A30168 /* ImageIO.framework in Frameworks */,
-				20CE64B32106A5EF00A30168 /* GLKit.framework in Frameworks */,
-				20CE64B12106A5E400A30168 /* CoreText.framework in Frameworks */,
-				20CE64AF2106A5D800A30168 /* CoreTelephony.framework in Frameworks */,
-				20CE64AD2106A5CD00A30168 /* CoreLocation.framework in Frameworks */,
-				20CE64AB2106A5C400A30168 /* CoreImage.framework in Frameworks */,
-				20CE64A92106A5BD00A30168 /* CoreGraphics.framework in Frameworks */,
-				20CE64A72106A5B100A30168 /* CoreData.framework in Frameworks */,
-				20CE64A52106A5A400A30168 /* Accelerate.framework in Frameworks */,
-				20CE649E2106A4C400A30168 /* GoogleMaps.framework in Frameworks */,
-				20CE64A02106A4C400A30168 /* GoogleMapsCore.framework in Frameworks */,
+				20CE64C32107773B00A30168 /* GooglePlaces.framework in Frameworks */,
 				20CE649F2106A4C400A30168 /* GoogleMapsBase.framework in Frameworks */,
+				20CE64C52107775300A30168 /* GooglePlacePicker.framework in Frameworks */,
+				20CE64A02106A4C400A30168 /* GoogleMapsCore.framework in Frameworks */,
+				20CE649E2106A4C400A30168 /* GoogleMaps.framework in Frameworks */,
+				20CE64A52106A5A400A30168 /* Accelerate.framework in Frameworks */,
+				20CE64A72106A5B100A30168 /* CoreData.framework in Frameworks */,
+				20CE64A92106A5BD00A30168 /* CoreGraphics.framework in Frameworks */,
+				20CE64AB2106A5C400A30168 /* CoreImage.framework in Frameworks */,
+				20CE64AD2106A5CD00A30168 /* CoreLocation.framework in Frameworks */,
+				20CE64AF2106A5D800A30168 /* CoreTelephony.framework in Frameworks */,
+				20CE64B12106A5E400A30168 /* CoreText.framework in Frameworks */,
+				20CE64B32106A5EF00A30168 /* GLKit.framework in Frameworks */,
+				20CE64B52106A5F900A30168 /* ImageIO.framework in Frameworks */,
+				20CE64B72106A61000A30168 /* libc++.tbd in Frameworks */,
+				20CE64B92106A61C00A30168 /* libz.tbd in Frameworks */,
+				20CE64BB2106A62800A30168 /* OpenGLES.framework in Frameworks */,
+				20CE64BD2106A63100A30168 /* QuartzCore.framework in Frameworks */,
+				20CE64BF2106A63B00A30168 /* SystemConfiguration.framework in Frameworks */,
+				20CE64C12106A64400A30168 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +129,10 @@
 		20CE646D21067F4E00A30168 = {
 			isa = PBXGroup;
 			children = (
+				20CE64C8210777AB00A30168 /* GooglePlacePicker.bundle */,
+				20CE64C62107778100A30168 /* GooglePlaces.bundle */,
+				20CE64C42107775300A30168 /* GooglePlacePicker.framework */,
+				20CE64C22107773B00A30168 /* GooglePlaces.framework */,
 				20CE64A12106A56E00A30168 /* GoogleMaps.bundle */,
 				20CE649B2106A4BE00A30168 /* GoogleMaps.framework */,
 				20CE649C2106A4C000A30168 /* GoogleMapsBase.framework */,
@@ -139,8 +157,10 @@
 			isa = PBXGroup;
 			children = (
 				20CE647921067F4F00A30168 /* AppDelegate.swift */,
+				20CE64CA21077B6B00A30168 /* MapViewController.swift */,
 				20CE647B21067F4F00A30168 /* ViewController.swift */,
 				20CE647D21067F4F00A30168 /* Main.storyboard */,
+				20CE64CC21077E2F00A30168 /* MapView.swift */,
 				20CE648021067F5100A30168 /* Assets.xcassets */,
 				20CE648221067F5100A30168 /* LaunchScreen.storyboard */,
 				20CE648521067F5100A30168 /* Info.plist */,
@@ -260,10 +280,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20CE64C9210777AC00A30168 /* GooglePlacePicker.bundle in Resources */,
 				20CE648421067F5100A30168 /* LaunchScreen.storyboard in Resources */,
 				20CE648121067F5100A30168 /* Assets.xcassets in Resources */,
 				20CE647F21067F4F00A30168 /* Main.storyboard in Resources */,
 				20CE64A22106A56E00A30168 /* GoogleMaps.bundle in Resources */,
+				20CE64C72107778100A30168 /* GooglePlaces.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +304,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				20CE647C21067F4F00A30168 /* ViewController.swift in Sources */,
+				20CE64CD21077E2F00A30168 /* MapView.swift in Sources */,
+				20CE64CB21077B6B00A30168 /* MapViewController.swift in Sources */,
 				20CE647A21067F4F00A30168 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
