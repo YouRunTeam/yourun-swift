@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/aebartlett/Desktop/YouRun/YouRun!/DerivedData/YouRun!/Build/Products/Debug-iphonesimulator/Pods_YouRun_.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-YouRun!-umbrella.h",
+          'external-contents': "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/Target Support Files/Pods-YouRun!/Pods-YouRun!-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_YouRun_-Swift.h",
+          'external-contents': "/Users/aebartlett/Desktop/YouRun/YouRun!/DerivedData/YouRun!/Build/Products/Debug-iphonesimulator/Pods_YouRun_.framework/Headers/Pods_YouRun_-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/aebartlett/Desktop/YouRun/YouRun!/DerivedData/YouRun!/Build/Products/Debug-iphonesimulator/Pods_YouRun_.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/aebartlett/Desktop/YouRun/YouRun!/DerivedData/YouRun!/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-YouRun!.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

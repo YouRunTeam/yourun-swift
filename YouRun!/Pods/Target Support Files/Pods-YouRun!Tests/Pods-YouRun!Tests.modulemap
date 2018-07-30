@@ -1,0 +1,6 @@
+framework module Pods_YouRun_Tests {
+  umbrella header "Pods-YouRun!Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
