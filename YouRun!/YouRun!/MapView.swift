@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import GoogleMaps
+import GooglePlaces
 
-class MapView: UIView {
+@IBDesignable class MapView: UIView {
 
     /*
     // Only override draw() if you perform custom drawing.
