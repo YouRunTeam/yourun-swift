@@ -58,9 +58,11 @@ class MapViewController: UIViewController {
 }
 
 // from https://www.raywenderlich.com/179565/google-maps-ios-sdk-tutorial-getting-started
+// get user location with an extention to MapViewController
 extension MapViewController: CLLocationManagerDelegate {
 
     // grant or revoke permission to access location of user
+    // (appears as popup - see Custom iOS Target Properties)
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         guard status == .authorizedWhenInUse else {
             return
@@ -78,7 +80,11 @@ extension MapViewController: CLLocationManagerDelegate {
             return
         }
         
+        // center camera view on user location
         mapView.camera = GMSCameraPosition(target: location.coordinate, zoom: 15, bearing: 0, viewingAngle: 0)
+        let marker = GMSMarker(position: location.coordinate)
+        marker.title = "hello world"
+        marker.map = mapView
         
         // only get user location once (don't follow around)
         locationManager.stopUpdatingLocation()
