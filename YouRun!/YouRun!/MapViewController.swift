@@ -22,38 +22,15 @@ class MapViewController: UIViewController {
         locationManager.delegate = self as CLLocationManagerDelegate
         locationManager.requestWhenInUseAuthorization()
 
-        /*
-        // from Google Developer setup help
-        // Create a GMSCameraPosition that tells the map to display the
-        // coordinate -33.86,151.20 at zoom level 6.
-        let camera = GMSCameraPosition.camera(withLatitude: -33.86, longitude: 151.20, zoom: 6.0)
-        let theMap = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
-        mapView = theMap
-        
-        // Creates a marker in the center of the map.
-        let marker = GMSMarker()
-        marker.position = CLLocationCoordinate2D(latitude: -33.86, longitude: 151.20)
-        marker.title = "Sydney"
-        marker.snippet = "Australia"
-        marker.map = mapView
-        */
+        mapView.settings.scrollGestures = true // pan camera
+        mapView.settings.zoomGestures = true // tap/pinch to zoom
+                                             /* PINCH NOT WORKING */
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
 
@@ -72,6 +49,7 @@ extension MapViewController: CLLocationManagerDelegate {
         
         mapView.isMyLocationEnabled = true // show user location
         mapView.settings.myLocationButton = true // button to center on user location
+        mapView.settings.compassButton = true // compass to orient map when bearing is non-zero
     }
     
     // execute when locationManager receives new location data
@@ -82,11 +60,27 @@ extension MapViewController: CLLocationManagerDelegate {
         
         // center camera view on user location
         mapView.camera = GMSCameraPosition(target: location.coordinate, zoom: 15, bearing: 0, viewingAngle: 0)
-        let marker = GMSMarker(position: location.coordinate)
-        marker.title = "hello world"
-        marker.map = mapView
         
         // only get user location once (don't follow around)
         locationManager.stopUpdatingLocation()
+        
+        let marker = GMSMarker(position: location.coordinate)
+        marker.title = "You are here!"
+        marker.map = mapView
+        
+        let destinationPosition = CLLocationCoordinate2D(latitude: location.coordinate.latitude + 0.01, longitude: location.coordinate.longitude + 0.01)
+        let destinationMarker = GMSMarker(position: destinationPosition)
+        destinationMarker.title = "Turnaround Destination:"
+        destinationMarker.snippet = "This is your halfway point!"
+        destinationMarker.map = mapView
+        
+        let runPath = GMSMutablePath()
+        runPath.add(location.coordinate)
+        runPath.add(CLLocationCoordinate2D(latitude: location.coordinate.latitude + 0.005, longitude: location.coordinate.longitude))
+        runPath.add(destinationPosition)
+        let polyline = GMSPolyline(path: runPath)
+        polyline.strokeColor = .green
+        
+        polyline.map = mapView
     }
 }
