@@ -1,7 +1,8 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
 options: "d350acbbcf1284f506a2713931208b3a"
-build_time: [1532977690, 848031000]
+build_time: [1533249694, 959081000]
 inputs:
   "/Users/aebartlett/Desktop/YouRun/YouRun!/YouRun!/ViewController.swift": [1532976537, 0]
-  "/Users/aebartlett/Desktop/YouRun/YouRun!/YouRun!/MapViewController.swift": [1532977662, 0]
+  "/Users/aebartlett/Desktop/YouRun/YouRun!/YouRun!/MapView.swift": [1533010283, 0]
+  "/Users/aebartlett/Desktop/YouRun/YouRun!/YouRun!/MapViewController.swift": [1533087859, 0]
   "/Users/aebartlett/Desktop/YouRun/YouRun!/YouRun!/AppDelegate.swift": [1532977484, 0]

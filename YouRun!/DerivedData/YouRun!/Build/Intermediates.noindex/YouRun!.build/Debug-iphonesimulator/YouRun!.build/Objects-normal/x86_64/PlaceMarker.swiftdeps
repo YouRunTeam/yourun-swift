@@ -1,0 +1,274 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PlaceMarker"
+provides-nominal:
+- "7YouRun_11PlaceMarkerC"
+provides-member:
+- ["7YouRun_11PlaceMarkerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "AssignmentPrecedence"
+- !private "CGPoint"
+- "GMSMarker"
+- "GooglePlace"
+- "PlaceMarker"
+- !private "StringLiteralType"
+- !private "UIImage"
+depends-member:
+- !private ["SC7CGPointV", "init"]
+- !private ["s7CVarArgP", "CGPoint"]
+- ["s7CVarArgP", "GooglePlace"]
+- !private ["s7CVarArgP", "UIImage"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "appearAnimation"]
+- !private ["s7CVarArgP", "groundAnchor"]
+- !private ["s7CVarArgP", "icon"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "place"]
+- !private ["s7CVarArgP", "position"]
+- !private ["s28CustomDebugStringConvertibleP", "CGPoint"]
+- ["s28CustomDebugStringConvertibleP", "GooglePlace"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "appearAnimation"]
+- !private ["s28CustomDebugStringConvertibleP", "groundAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "icon"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "place"]
+- !private ["s28CustomDebugStringConvertibleP", "position"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CGPoint"]
+- ["s23CustomStringConvertibleP", "GooglePlace"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appearAnimation"]
+- !private ["s23CustomStringConvertibleP", "groundAnchor"]
+- !private ["s23CustomStringConvertibleP", "icon"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "place"]
+- !private ["s23CustomStringConvertibleP", "position"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "CGPoint"]
+- ["s9EquatableP", "GooglePlace"]
+- !private ["s9EquatableP", "UIImage"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "appearAnimation"]
+- !private ["s9EquatableP", "groundAnchor"]
+- !private ["s9EquatableP", "icon"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "place"]
+- !private ["s9EquatableP", "pop"]
+- !private ["s9EquatableP", "position"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So9GMSMarkerC", "CGPoint"]
+- ["So9GMSMarkerC", "GooglePlace"]
+- !private ["So9GMSMarkerC", "UIImage"]
+- ["So9GMSMarkerC", ""]
+- !private ["So9GMSMarkerC", "appearAnimation"]
+- !private ["So9GMSMarkerC", "groundAnchor"]
+- !private ["So9GMSMarkerC", "icon"]
+- ["So9GMSMarkerC", "init"]
+- !private ["So9GMSMarkerC", "place"]
+- !private ["So9GMSMarkerC", "position"]
+- !private ["SC18GMSMarkerAnimationO", "pop"]
+- !private ["So10GMSOverlayC", "CGPoint"]
+- ["So10GMSOverlayC", "GooglePlace"]
+- !private ["So10GMSOverlayC", "UIImage"]
+- !private ["So10GMSOverlayC", "appearAnimation"]
+- !private ["So10GMSOverlayC", "groundAnchor"]
+- !private ["So10GMSOverlayC", "icon"]
+- ["So10GMSOverlayC", "init"]
+- !private ["So10GMSOverlayC", "place"]
+- !private ["So10GMSOverlayC", "position"]
+- !private ["s8HashableP", "CGPoint"]
+- ["s8HashableP", "GooglePlace"]
+- !private ["s8HashableP", "UIImage"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "appearAnimation"]
+- !private ["s8HashableP", "groundAnchor"]
+- !private ["s8HashableP", "icon"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "place"]
+- !private ["s8HashableP", "pop"]
+- !private ["s8HashableP", "position"]
+- !private ["So9NSCopyingP", "CGPoint"]
+- ["So9NSCopyingP", "GooglePlace"]
+- !private ["So9NSCopyingP", "UIImage"]
+- ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "appearAnimation"]
+- !private ["So9NSCopyingP", "groundAnchor"]
+- !private ["So9NSCopyingP", "icon"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "place"]
+- !private ["So9NSCopyingP", "position"]
+- !private ["So8NSObjectC", "CGPoint"]
+- ["So8NSObjectC", "GooglePlace"]
+- !private ["So8NSObjectC", "UIImage"]
+- !private ["So8NSObjectC", "appearAnimation"]
+- !private ["So8NSObjectC", "groundAnchor"]
+- !private ["So8NSObjectC", "icon"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "place"]
+- !private ["So8NSObjectC", "position"]
+- !private ["So16NSObjectProtocolP", "CGPoint"]
+- ["So16NSObjectProtocolP", "GooglePlace"]
+- !private ["So16NSObjectProtocolP", "UIImage"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "appearAnimation"]
+- !private ["So16NSObjectProtocolP", "groundAnchor"]
+- !private ["So16NSObjectProtocolP", "icon"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "place"]
+- !private ["So16NSObjectProtocolP", "position"]
+- !private ["7YouRun_11PlaceMarkerC", "CGPoint"]
+- ["7YouRun_11PlaceMarkerC", "GooglePlace"]
+- !private ["7YouRun_11PlaceMarkerC", "UIImage"]
+- !private ["7YouRun_11PlaceMarkerC", "appearAnimation"]
+- ["7YouRun_11PlaceMarkerC", "deinit"]
+- !private ["7YouRun_11PlaceMarkerC", "groundAnchor"]
+- !private ["7YouRun_11PlaceMarkerC", "icon"]
+- ["7YouRun_11PlaceMarkerC", "init"]
+- !private ["7YouRun_11PlaceMarkerC", "place"]
+- !private ["7YouRun_11PlaceMarkerC", "position"]
+- !private ["s16RawRepresentableP", "pop"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "GooglePlace"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appearAnimation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "groundAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "icon"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "place"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "position"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "SC7CGPointV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "So9GMSMarkerC"
+- !private "SC18GMSMarkerAnimationO"
+- "So10GMSOverlayC"
+- "s8HashableP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "7YouRun_11PlaceMarkerC"
+- !private "s16RawRepresentableP"
+- !private "s12StaticStringV"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadata.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihood.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlace.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSUserAddedPlace.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaSource.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteTableDataSource.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteBoundsMode.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompletePrediction.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFetcher.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteViewController.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteResultsViewController.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFilter.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GooglePlaces.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceTypes.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesErrors.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesClient.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteMatchFragment.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAddressComponent.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadataList.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihoodList.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Modules/module.modulemap"
+- "/Users/aebartlett/Desktop/YouRun/YouRun!/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "c923225de76e0b89738ac71275d26816"

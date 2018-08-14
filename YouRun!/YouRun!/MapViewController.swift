@@ -81,6 +81,6 @@ extension MapViewController: CLLocationManagerDelegate {
         let polyline = GMSPolyline(path: runPath)
         polyline.strokeColor = .green
         
-        polyline.map = mapView
+        polyline.map = mapView 
     }
 }
