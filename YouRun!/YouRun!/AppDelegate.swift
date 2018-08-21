@@ -15,7 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    // Models to be shared between VCs
+    let runPrefs = runPrefsModel()
+    let server = serverModel()
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         GMSServices.provideAPIKey("AIzaSyBGfFVCUhA3vioAb6qHTZQyliY2ArV7PKY")

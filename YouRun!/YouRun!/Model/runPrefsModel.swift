@@ -13,7 +13,7 @@ import GoogleMaps
  * purpose: store user criteria for route (from user input)
  *          update coordinates for route (from server)
  */
-class runPrefs {
+class runPrefsModel {
     
     // contains values for user preferences
     // (types of preferences currently placeholders)

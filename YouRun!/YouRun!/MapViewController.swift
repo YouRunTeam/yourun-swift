@@ -16,8 +16,18 @@ class MapViewController: UIViewController {
     
     private let locationManager = CLLocationManager()
     
+    // appDelegate to enable Model sharing between VCs
+    private let appDelegate = UIApplication.shared.delegate as! AppDelegate
+    
+    // Models to share between VCs
+    var runPrefs: runPrefsModel!
+    var server: serverModel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        runPrefs = appDelegate.runPrefs
+        server = appDelegate.server
         
         locationManager.delegate = self as CLLocationManagerDelegate
         locationManager.requestWhenInUseAuthorization()
