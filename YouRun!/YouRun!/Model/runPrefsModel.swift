@@ -17,22 +17,25 @@ class runPrefs {
     
     // contains values for user preferences
     // (types of preferences currently placeholders)
+    // maybe don't need this
     struct prefOptions: Codable {
         var hills       : Int
         var greenspace  : Int
         var water       : Int
         var trails      : Int
     }   
-    var userPrefs: prefOptions?
+    //var userPrefs: prefOptions?
     
     // HELP would love to use dictionary for this but couldn't figure out how to init while offline
-    //var userPrefs: Dictionary <String, Int>
+    var userPrefs: [String: Int]
     
     // array of route coordinates
     var runCoords: [CLLocationCoordinate2D]
     
     init() {
-        userPrefs = prefOptions.init(hills: 0, greenspace: 0, water: 0, trails: 0)
+        //userPrefs = prefOptions.init(hills: 0, greenspace: 0, water: 0, trails: 0)
+        userPrefs = [:]
+        
         runCoords = []
     }
     

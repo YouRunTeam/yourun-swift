@@ -1,11 +1,206 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "runPrefs"
 provides-nominal:
+- "7YouRun_8runPrefsC"
+- "7YouRun_8runPrefsC11prefOptionsV"
 provides-member:
+- ["7YouRun_8runPrefsC", ""]
+- ["7YouRun_8runPrefsC11prefOptionsV", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "CLLocationCoordinate2D"
+- "Codable"
+- "Double"
+- "Int"
+- !private "StringLiteralType"
+- "runPrefs"
+- !private "~="
 depends-member:
+- !private ["Sa", "append"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["SC22CLLocationCoordinate2DV", "init"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["s9DecodableP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- ["s9DecodableP", "encode"]
+- !private ["s9DecodableP", "greenspace"]
+- !private ["s9DecodableP", "hills"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "trails"]
+- !private ["s9DecodableP", "water"]
+- !private ["s7DecoderP", "container"]
+- ["s9EncodableP", ""]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- ["s9EncodableP", "encode"]
+- !private ["s9EncodableP", "greenspace"]
+- !private ["s9EncodableP", "hills"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "trails"]
+- !private ["s9EncodableP", "water"]
+- !private ["s7EncoderP", "container"]
+- !private ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- ["s9EquatableP", "debugDescription"]
+- ["s9EquatableP", "description"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "intValue"]
+- ["s9EquatableP", "stringValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "debugDescription"]
+- ["s8HashableP", "description"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "intValue"]
+- ["s8HashableP", "stringValue"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["7YouRun_8runPrefsC11prefOptionsV", "CodingKeys"]
+- ["7YouRun_8runPrefsC11prefOptionsV", "Int"]
+- ["7YouRun_8runPrefsC11prefOptionsV", "deinit"]
+- ["7YouRun_8runPrefsC11prefOptionsV", "encode"]
+- ["7YouRun_8runPrefsC11prefOptionsV", "greenspace"]
+- ["7YouRun_8runPrefsC11prefOptionsV", "hills"]
+- ["7YouRun_8runPrefsC11prefOptionsV", "init"]
+- ["7YouRun_8runPrefsC11prefOptionsV", "trails"]
+- ["7YouRun_8runPrefsC11prefOptionsV", "water"]
+- ["7YouRun_8runPrefsC", "CLLocationCoordinate2D"]
+- ["7YouRun_8runPrefsC", "Codable"]
+- ["7YouRun_8runPrefsC", "Double"]
+- ["7YouRun_8runPrefsC", "Int"]
+- ["7YouRun_8runPrefsC", "deinit"]
+- ["7YouRun_8runPrefsC", "getPrefs"]
+- ["7YouRun_8runPrefsC", "init"]
+- ["7YouRun_8runPrefsC", "insertCoordinate"]
+- ["7YouRun_8runPrefsC", "prefOptions"]
+- ["7YouRun_8runPrefsC", "runCoords"]
+- ["7YouRun_8runPrefsC", "userPrefs"]
 depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "SC22CLLocationCoordinate2DV"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s7DecoderP"
+- "s9EncodableP"
+- !private "s7EncoderP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+- "7YouRun_8runPrefsC11prefOptionsV"
+- "7YouRun_8runPrefsC"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -98,4 +293,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "5bf39d8b5f0094ca83c744a0da4fb204"
+interface-hash: "4b4b23829304aff0f42dc14163b90351"

@@ -1,11 +1,20 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "serverModel"
 provides-nominal:
+- "7YouRun_11serverModelC"
 provides-member:
+- ["7YouRun_11serverModelC", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "serverModel"
 depends-member:
+- ["7YouRun_11serverModelC", "deinit"]
+- ["7YouRun_11serverModelC", "getRoute"]
+- ["7YouRun_11serverModelC", "init"]
+- ["7YouRun_11serverModelC", "sendPrefs"]
 depends-nominal:
+- "7YouRun_11serverModelC"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -98,4 +107,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "5bf39d8b5f0094ca83c744a0da4fb204"
+interface-hash: "9638db40963ead3626377b1b914b4b2d"
