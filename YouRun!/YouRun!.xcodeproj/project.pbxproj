@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20860FA521284213003F2A1B /* runPrefsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20860FA421284213003F2A1B /* runPrefsModel.swift */; };
+		20860FA82128424F003F2A1B /* serverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20860FA72128424F003F2A1B /* serverModel.swift */; };
 		20CE64DB210F951900A30168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CE64DA210F951900A30168 /* AppDelegate.swift */; };
 		20CE64DD210F951A00A30168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CE64DC210F951A00A30168 /* ViewController.swift */; };
 		20CE64E0210F951A00A30168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CE64DE210F951A00A30168 /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 
 /* Begin PBXFileReference section */
 		0C49DF941CAB9930AAF6414D /* Pods-YouRun!Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouRun!Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YouRun!Tests/Pods-YouRun!Tests.release.xcconfig"; sourceTree = "<group>"; };
+		20860FA421284213003F2A1B /* runPrefsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = runPrefsModel.swift; sourceTree = "<group>"; };
+		20860FA72128424F003F2A1B /* serverModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serverModel.swift; sourceTree = "<group>"; };
 		20CE64D7210F951900A30168 /* YouRun!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YouRun!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CE64DA210F951900A30168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20CE64DC210F951A00A30168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +74,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20860FA921284257003F2A1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20860FA421284213003F2A1B /* runPrefsModel.swift */,
+				20860FA72128424F003F2A1B /* serverModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		20CE64CE210F951900A30168 = {
 			isa = PBXGroup;
 			children = (
@@ -93,11 +106,12 @@
 		20CE64D9210F951900A30168 /* YouRun! */ = {
 			isa = PBXGroup;
 			children = (
+				20CE64DE210F951A00A30168 /* Main.storyboard */,
 				20CE64DA210F951900A30168 /* AppDelegate.swift */,
 				20CE64DC210F951A00A30168 /* ViewController.swift */,
 				20CE64FA210F991700A30168 /* MapViewController.swift */,
-				20CE64DE210F951A00A30168 /* Main.storyboard */,
 				20CE64FC210F9A1900A30168 /* MapView.swift */,
+				20860FA921284257003F2A1B /* Model */,
 				20CE64E1210F951D00A30168 /* Assets.xcassets */,
 				20CE64E3210F951D00A30168 /* LaunchScreen.storyboard */,
 				20CE64E6210F951D00A30168 /* Info.plist */,
@@ -299,7 +313,9 @@
 			files = (
 				20CE64DD210F951A00A30168 /* ViewController.swift in Sources */,
 				20CE64FD210F9A1900A30168 /* MapView.swift in Sources */,
+				20860FA521284213003F2A1B /* runPrefsModel.swift in Sources */,
 				20CE64FB210F991700A30168 /* MapViewController.swift in Sources */,
+				20860FA82128424F003F2A1B /* serverModel.swift in Sources */,
 				20CE64DB210F951900A30168 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
